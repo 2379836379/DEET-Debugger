@@ -1,4 +1,4 @@
-# Project 1: deet
+# DEET-Debugger
 
 `deet` is a small command-line debugger implemented in Rust for Linux `x86_64` programs with DWARF debug information.
 
