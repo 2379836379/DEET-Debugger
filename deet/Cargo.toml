@@ -1,0 +1,23 @@
+[package]
+name = "deet"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# 调试器核心
+rustyline = "18.0"      
+
+# 系统调用（需要启用 features）
+nix = { version = "0.29", features = ["process", "ptrace", "signal"] }
+
+# 二进制解析
+object = "0.38"
+gimli = "0.33"
+addr2line = "0.24"
+
+# 文件操作
+memmap2 = "0.9"
+anyhow = "1.0"
+
+# 其他可能需要的
+libc = "0.2"
