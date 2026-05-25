@@ -1,9 +1,3 @@
-//! This file contains code for using gimli to extract information from the DWARF section of an
-//! executable. The code is adapted from
-//! https://github.com/gimli-rs/gimli/blob/master/examples/simple.rs and
-//! https://github.com/gimli-rs/gimli/blob/master/examples/dwarfdump.rs.
-//!
-//! This code is a huge mess. Please don't read it unless you're trying to do an extension :)
 
 use gimli;
 use gimli::UnitOffset;
